@@ -8,17 +8,14 @@ import java.util.Scanner;
 
 public class Day1 implements Day{
     private final int part;
-    private final String inputPath;
+    private final List<Integer> input;
 
     public Day1(String part, String inputPath) {
         this.part = Integer.parseInt(part);
-        this.inputPath = inputPath;
+        this.input = parseInput(inputPath);
     }
 
     public int run(){
-        // parse input file
-        List<Integer> input = parseInput(this.inputPath);
-
         if (input.size() == 0){
             System.err.println("No input parsed.");
             return 2;
