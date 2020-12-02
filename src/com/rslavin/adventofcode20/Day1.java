@@ -5,11 +5,10 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 public class Day1 implements Day{
-    private int part;
-    private String inputPath;
+    private final int part;
+    private final String inputPath;
 
     public Day1(String part, String inputPath) {
         this.part = Integer.parseInt(part);
