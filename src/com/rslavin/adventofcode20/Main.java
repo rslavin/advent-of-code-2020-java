@@ -1,6 +1,5 @@
 package com.rslavin.adventofcode20;
 
-import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.concurrent.TimeUnit;
